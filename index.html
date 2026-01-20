@@ -8,6 +8,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
     <style>
         :root {
             --primary: #d35400;
@@ -331,6 +332,44 @@
         .offcanvas-menu a i {
             font-size: 20px;
             width: 30px;
+        }
+
+        /* Offcanvas Submenu */
+        .offcanvas-submenu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background: rgba(211, 84, 0, 0.05);
+        }
+
+        .offcanvas-submenu.active {
+            max-height: 400px;
+        }
+
+        .offcanvas-submenu a {
+            padding-left: 60px;
+            font-size: 14px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .menu-item-with-dropdown {
+            position: relative;
+        }
+
+        .dropdown-toggle-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 16px;
+            transition: transform 0.3s;
+        }
+
+        .dropdown-toggle-icon.active {
+            transform: translateY(-50%) rotate(180deg);
         }
 
         /* Hero Slider */
@@ -1197,6 +1236,7 @@
             }
         }
     </style>
+
 </head>
 
 <body>
@@ -1310,7 +1350,20 @@
             <ul class="offcanvas-menu">
                 <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
-                <li><a href="#products"><i class="fas fa-box-open"></i> Products</a></li>
+                <li class="menu-item-with-dropdown">
+                    <a href="#" onclick="toggleOffcanvasDropdown(event)">
+                        <i class="fas fa-box-open"></i> Products
+                        <i class="fas fa-chevron-down dropdown-toggle-icon"></i>
+                    </a>
+                    <ul class="offcanvas-submenu">
+                        <li><a href="#products"><i class="fas fa-tint"></i> Coconut Oil</a></li>
+                        <li><a href="#products"><i class="fas fa-seedling"></i> Groundnut Oil</a></li>
+                        <li><a href="#products"><i class="fas fa-pepper-hot"></i> Red Dry Chilli</a></li>
+                        <li><a href="#products"><i class="fas fa-leaf"></i> Spices & Cardamom</a></li>
+                        <li><a href="#products"><i class="fas fa-cookie"></i> Cow Ghee</a></li>
+                        <li><a href="#products"><i class="fas fa-dice-d6"></i> Rice & Pulses</a></li>
+                    </ul>
+                </li>
                 <li><a href="#services"><i class="fas fa-concierge-bell"></i> Services</a></li>
                 <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
                 <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
@@ -1892,6 +1945,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
     <script>
         // Initialize AOS
         AOS.init({
@@ -2055,7 +2109,20 @@
                 }
             });
         });
+
+        // Offcanvas Dropdown Toggle
+        function toggleOffcanvasDropdown(e) {
+            e.preventDefault();
+            const parentLi = e.currentTarget.parentElement;
+            const submenu = parentLi.querySelector('.offcanvas-submenu');
+            const icon = parentLi.querySelector('.dropdown-toggle-icon');
+
+            // Toggle active class
+            submenu.classList.toggle('active');
+            icon.classList.toggle('active');
+        }
     </script>
+
 </body>
 
 </html>
