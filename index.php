@@ -14,269 +14,8 @@
 
 <body>
 
-    <!-- Topbar -->
-    <div class="topbar">
-        <div class="container d-none d-lg-block">
-            <div class="topbar-content">
-                <div class="d-flex gap-3 flex-wrap">
-                    <a href="tel:9092200699" class="topbar-item">
-                        <i class="fas fa-phone-alt"></i>
-                        <span>9092200699, 9629979406</span>
-                    </a>
-                    <a href="mailto:info@guswiss.com" class="topbar-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>infogtipl2024@gmail.com</span>
-                    </a>
-                    <a href="#" class="topbar-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Coimbatore, Tamil Nadu</span>
-                    </a>
-                </div>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Header -->
-    <header class="modern-header">
-        <div class="container">
-            <div class="header-container">
-                <div class="logo-section">
-                    <!-- <div class="logo-circle">GT</div> -->
-                    <div class="logo-text">
-                        <!-- <h2>GUSWISS TRADERS INDIA PRIVATE LIMITED</h2>
-                        <p>Premium Food Products Since 2018</p> -->
-                        <a href="index.html"> <img src="./assets/img/g_logo.jpeg" height="100px" width="100%"
-                                alt=""></a>
-                    </div>
-                </div>
-
-                <!-- Desktop Mega Menu -->
-                <nav>
-                    <ul class="mega-menu">
-                        <li>
-                            <a href="#home" class="active"><i class="fas fa-home"></i>Home</a>
-                        </li>
-                        <li>
-                            <a href="#about"><i class="fas fa-info-circle"></i>About</a>
-                        </li>
-                        <li>
-                            <a>
-                                <i class="fas fa-box-open"></i>
-                                Products
-                                <i class="fas fa-chevron-down dropdown-chevron">
-                                </i>
-                            </a>
-                            <div class="mega-dropdown">
-                                <div class="mega-dropdown-item">
-                                    <a href="#" onclick="return false;">
-                                        <i class="fas fa-tint"></i>
-                                        Oils
-                                        <i class="fas fa-chevron-right dropdown-arrow"></i>
-                                    </a>
-                                    <div class="mega-dropdown-submenu">
-                                        <a href="#products"><i class="fas fa-circle"></i> Coconut Oil</a>
-                                        <a href="#products"><i class="fas fa-circle"></i> Groundnut Oil</a>
-                                        <a href="#products"><i class="fas fa-circle"></i> Sesame Oil</a>
-                                        <a href="#products"><i class="fas fa-circle"></i> Palm Oil</a>
-                                        <a href="#products"><i class="fas fa-circle"></i> Refined Sunflower Oil</a>
-                                    </div>
-                                </div>
-                                <div class="mega-dropdown-item">
-                                    <a href="#" onclick="return false;">
-                                        <i class="fas fa-leaf"></i>
-                                        Spices
-                                        <i class="fas fa-chevron-right dropdown-arrow"></i>
-                                    </a>
-                                    <div class="mega-dropdown-submenu">
-                                        <a href="#products"><i class="fas fa-pepper-hot"></i> Cumin</a>
-                                        <a href="#products"><i class="fas fa-leaf"></i>Green Cardamom</a>
-                                        <a href="#products"><i class="fas fa-mortar-pestle"></i> Black Pepper</a>
-                                        <a href="#products"> <i class="fas fa-seedling"></i> Coriander Seeds</a>
-                                        <a href="#products"><i class="fas fa-pepper-hot"></i> Dry Red Chilli</a>
-                                    </div>
-                                </div>
-                                <!--  -->
-                                <div class="mega-dropdown-item">
-                                    <a href="#" onclick="return false;">
-                                        <i class="fas fa-dice-d6"></i>
-                                        Grains
-                                        <i class="fas fa-chevron-right dropdown-arrow"></i>
-                                    </a>
-                                    <div class="mega-dropdown-submenu">
-                                        <a href="#products"><i class="fas fa-circle"></i> Ponni Rice</a>
-                                    </div>
-                                </div>
-                                <!--  -->
-                                <div class="mega-dropdown-item">
-                                    <a href="#" onclick="return false;">
-                                        <i class="fas fa-dice-d6"></i>
-                                        Pulses
-                                        <i class="fas fa-chevron-right dropdown-arrow"></i>
-                                    </a>
-                                    <div class="mega-dropdown-submenu">
-                                        <a href="#products"><i class="fas fa-circle"></i> Yellow Moong Pulses</a>
-                                        <a href="#products"><i class="fas fa-circle"></i> Toor Pulses</a>
-                                        <a href="#products"><i class="fas fa-circle"></i> Red Masoor Pulses</a>
-                                        <a href="#products"><i class="fas fa-circle"></i> Chana Pulses</a>
-                                        <a href="#products"><i class="fas fa-circle"></i> Black Masoor Pulses</a>
-                                        <a href="#products"><i class="fas fa-circle"></i> White Chickpeas</a>
-                                        <a href="#products"><i class="fas fa-circle"></i> Black Chickpeas</a>
-                                    </div>
-                                </div>
-                                <!--  -->
-                                <div class="mega-dropdown-item">
-                                    <a href="#" onclick="return false;">
-                                        <i class="fas fa-dice-d6"></i>
-                                        Dairy Products
-                                        <i class="fas fa-chevron-right dropdown-arrow"></i>
-                                    </a>
-                                    <div class="mega-dropdown-submenu">
-                                        <a href="#products"><i class="fas fa-circle"></i>Cow Ghee</a>
-                                    </div>
-                                </div>
-                                <!--  -->
-                                <div class="mega-dropdown-item">
-                                    <a href="#" onclick="return false;">
-                                        <i class="fas fa-dice-d6"></i>
-                                        Fresh Produce
-                                        <i class="fas fa-chevron-right dropdown-arrow"></i>
-                                    </a>
-                                    <div class="mega-dropdown-submenu">
-                                        <a href="#products"><i class="fas fa-circle"></i> Fresh Green Peas</a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#services">
-                                <i class="fas fa-concierge-bell"></i>
-                                Services
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#gallery">
-                                <i class="fas fa-images"></i>
-                                Gallery
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contact">
-                                <i class="fas fa-envelope"></i>
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <!-- Mobile Menu Toggle -->
-                <button class="menu-toggle" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <!-- Offcanvas Mobile Menu -->
-    <div class="offcanvas offcanvas-end" id="mobileMenu">
-        <div class="offcanvas-header">
-            <h5>Menu</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
-        </div>
-        <div class="offcanvas-body">
-            <ul class="offcanvas-menu">
-                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
-                <li class="menu-item-with-dropdown">
-                    <a href="#" onclick="toggleOffcanvasDropdown(event)">
-                        <i class="fas fa-box-open"></i> Products
-                        <i class="fas fa-chevron-down dropdown-toggle-icon"></i>
-                    </a>
-                    <ul class="offcanvas-submenu">
-                        <li class="submenu-item-with-dropdown">
-                            <a href="#" onclick="toggleOffcanvasDropdown(event)">
-                                <i class="fas fa-tint"></i> Oils
-                                <i class="fas fa-chevron-down dropdown-toggle-icon"></i>
-                            </a>
-                            <ul class="offcanvas-submenu">
-                                <li><a href="#products"><i class="fas fa-circle"></i> Coconut Oil</a></li>
-                                <li><a href="#products"><i class="fas fa-circle"></i> Groundnut Oil</a></li>
-                                <li><a href="#products"><i class="fas fa-circle"></i> Sesame-Oil</a></li>
-                                <li><a href="#products"><i class="fas fa-circle"></i> Palm Oil</a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu-item-with-dropdown">
-                            <a href="#" onclick="toggleOffcanvasDropdown(event)">
-                                <i class="fas fa-leaf"></i> Spices
-                                <i class="fas fa-chevron-down dropdown-toggle-icon"></i>
-                            </a>
-                            <ul class="offcanvas-submenu">
-                                <li><a href="#products"><i class="fas fa-seedling"></i> Cumin</a></li>
-                                <li><a href="#products"><i class="fas fa-leaf"></i>Green Cardamom</a></li>
-                                <li><a href="#products"><i class="fas fa-pepper-hot"></i> Black Pepper</a></li>
-                                <li><a href="#products"><i class="fas fa-pepper-hot"></i> Dry Red Chilli</a></li>
-                                <li><a href="#products"> <i class="fas fa-seedling"></i> Coriander Seeds</a></li>
-                            </ul>
-                        </li>
-                        <!--  -->
-                        <li class="submenu-item-with-dropdown">
-                            <a href="#" onclick="toggleOffcanvasDropdown(event)">
-                                <i class="fas fa-dice-d6"></i> Grains
-                                <i class="fas fa-chevron-down dropdown-toggle-icon"></i>
-                            </a>
-                            <ul class="offcanvas-submenu">
-                                <li><a href="#products"><i class="fas fa-circle"></i> Ponni Rice</a></li>
-                            </ul>
-                        </li>
-                        <!--  -->
-                        <li class="submenu-item-with-dropdown">
-                            <a href="#" onclick="toggleOffcanvasDropdown(event)">
-                                <i class="fas fa-dice-d6"></i> Pulses
-                                <i class="fas fa-chevron-down dropdown-toggle-icon"></i>
-                            </a>
-                            <ul class="offcanvas-submenu">
-                                <li><a href="#products"><i class="fas fa-circle"></i>Black Chickpeas</a></li>
-                                <li><a href="#products"><i class="fas fa-circle"></i>White Chickpeas</a></li>
-                                <li><a href="#products"><i class="fas fa-circle"></i>Black Masoor Pulses</a></li>
-                                <li><a href="#products"><i class="fas fa-circle"></i>Chana Pulses</a></li>
-                                <li><a href="#products"><i class="fas fa-circle"></i>Red Masoor Pulses</a></li>
-                                <li><a href="#products"><i class="fas fa-circle"></i>Toor Pulses</a></li>
-                                <li><a href="#products"><i class="fas fa-circle"></i>Yellow Moong Pulses</a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu-item-with-dropdown">
-                            <a href="#" onclick="toggleOffcanvasDropdown(event)">
-                                <i class="fas fa-dice-d6"></i> Dairy Products
-                                <i class="fas fa-chevron-down dropdown-toggle-icon"></i>
-                            </a>
-                            <ul class="offcanvas-submenu">
-                                <li><a href="#products"><i class="fas fa-circle"></i> Premium Ghee</a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu-item-with-dropdown">
-                            <a href="#" onclick="toggleOffcanvasDropdown(event)">
-                                <i class="fas fa-dice-d6"></i> Fresh Produce
-                                <i class="fas fa-chevron-down dropdown-toggle-icon"></i>
-                            </a>
-                            <ul class="offcanvas-submenu">
-                                <li><a href="#products"><i class="fas fa-circle"></i>Fresh Green Peas</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#services"><i class="fas fa-concierge-bell"></i> Services</a></li>
-                <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
-                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
-            </ul>
-        </div>
-    </div>
+    <!-- header -->
+    <?php include('header.php') ?>
 
     <!-- Hero Slider -->
     <section id="home" class="hero-slider">
@@ -378,6 +117,7 @@
 
             <div class="products-grid">
 
+                <!-- Coconut Oil -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="product-image">
                         <img src="./assets/img/Oils/Coconut-Oil.jpg" height="300px" width="100%" alt="">
@@ -385,19 +125,19 @@
                     </div>
                     <div class="product-info">
                         <h4>Coconut Oil</h4>
-                        <p>Pure and natural coconut oil extracted from fresh coconuts using traditional methods. Ideal
-                            for cooking, skincare, and daily wellness.</p>
+                        <p>Pure and natural coconut oil extracted from fresh coconuts using traditional methods.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="coconut-oil.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Groundnut Oil -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="product-image">
                         <img src="./assets/img/Oils/Groundnut-Oil.jpg" height="300px" width="100%" alt="">
@@ -405,19 +145,19 @@
                     </div>
                     <div class="product-info">
                         <h4>Groundnut Oil</h4>
-                        <p>High-quality groundnut oil made from carefully selected peanuts. Perfect for everyday cooking
-                            with rich taste and natural aroma.</p>
+                        <p>High-quality groundnut oil made from carefully selected peanuts.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="groundnut-oil.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Palm Oil -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="product-image">
                         <img src="./assets/img/Oils/Palm-Oil.jpg" height="300px" width="100%" alt="">
@@ -425,19 +165,19 @@
                     </div>
                     <div class="product-info">
                         <h4>Palm Oil</h4>
-                        <p>Refined palm oil processed under strict quality standards. Suitable for commercial cooking
-                            and large-scale food preparation.</p>
+                        <p>Refined palm oil processed under strict quality standards.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="palm-oil.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Sesame Oil -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="400">
                     <div class="product-image">
                         <img src="./assets/img/Oils/Sesame-Oil.jpg" height="300px" width="100%" alt="">
@@ -445,19 +185,19 @@
                     </div>
                     <div class="product-info">
                         <h4>Sesame Oil</h4>
-                        <p>Traditional sesame oil prepared from premium sesame seeds. Known for its rich flavor and
-                            health benefits.</p>
+                        <p>Traditional sesame oil prepared from premium sesame seeds.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="sesame-oil.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Cow Ghee -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="500">
                     <div class="product-image">
                         <img src="./assets/img/Dairy-Products/Ghee.jpg" height="300px" width="100%" alt="">
@@ -465,19 +205,19 @@
                     </div>
                     <div class="product-info">
                         <h4>Cow Ghee</h4>
-                        <p>Pure cow ghee made from fresh milk using hygienic processes. Rich in aroma, taste, and
-                            essential nutrients.</p>
+                        <p>Pure cow ghee made from fresh milk using hygienic processes.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="cow-ghee.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Ponni Rice -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="product-image">
                         <img src="./assets/img/Grains/Rice.jpg" height="300px" width="100%" alt="">
@@ -485,103 +225,101 @@
                     </div>
                     <div class="product-info">
                         <h4>Ponni Rice</h4>
-                        <p>Carefully sourced premium quality rice with excellent taste and texture. Ideal for daily
-                            meals and special dishes.</p>
+                        <p>Carefully sourced premium quality rice.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="ponni-rice.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Pulses Products -->
+                <!-- Pulses Collection -->
+
+                <!-- Black Chickpeas -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="product-image">
-                        <img src="./assets/img/Pulses/Black-Chickpeas.jpg" height="300px" width="100%"
-                            alt="Black Chickpeas">
+                        <img src="./assets/img/Pulses/Black-Chickpeas.jpg" height="300px" width="100%" alt="Black Chickpeas">
                         <span class="product-badge">Fresh</span>
                     </div>
                     <div class="product-info">
                         <h4>Black Chickpeas</h4>
-                        <p>Nutritious and high-quality pulses sourced from trusted farmers. Clean, fresh, and rich in
-                            protein.</p>
+                        <p>Nutritious and high-quality pulses.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="black-chickpeas.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
-
+                <!-- pulses -->
+                <!-- Black Masoor Pulses -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="product-image">
-                        <img src="./assets/img/Pulses/Black-Masoor-Pulses.jpg" height="300px" width="100%"
-                            alt="Black Masoor Pulses">
+                        <img src="./assets/img/Pulses/Black-Masoor-Pulses.jpg" height="300px" width="100%" alt="Black Masoor Pulses">
                         <span class="product-badge">Fresh</span>
                     </div>
                     <div class="product-info">
                         <h4>Black Masoor Pulses</h4>
-                        <p>Nutritious and high-quality pulses sourced from trusted farmers. Clean, fresh, and rich in
-                            protein.</p>
+                        <p>Nutritious and high-quality pulses.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="black-masoor-pulses.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Yellow Moong Pulses -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="product-image">
-                        <img src="./assets/img/Pulses/Chana-Pulses.webp" height="300px" width="100%" alt="Chana Pulses">
+                        <img src="./assets/img/Pulses/Yellow-Moong-Pulses.jpg" height="300px" width="100%" alt="Yellow Moong Pulses">
                         <span class="product-badge">Fresh</span>
                     </div>
                     <div class="product-info">
-                        <h4>Chana Pulses</h4>
-                        <p>Nutritious and high-quality pulses sourced from trusted farmers. Clean, fresh, and rich in
-                            protein.</p>
+                        <h4>Yellow Moong Pulses</h4>
+                        <p>Rich in protein and essential nutrients.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="yellow-moong-pulses.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- White Chickpeas -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="product-image">
-                        <img src="./assets/img/Pulses/Red-Masoor-Pulses.webp" height="300px" width="100%"
-                            alt="Red Masoor Pulses">
+                        <img src="./assets/img/Pulses/White-Chickpeas.jpg" height="300px" width="100%" alt="White Chickpeas">
                         <span class="product-badge">Fresh</span>
                     </div>
                     <div class="product-info">
-                        <h4>Red Masoor Pulses</h4>
-                        <p>Nutritious and high-quality pulses sourced from trusted farmers. Clean, fresh, and rich in
-                            protein.</p>
+                        <h4>White Chickpeas</h4>
+                        <p>High-quality pulses perfect for soups and salads.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="white-chickpeas.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Toor Pulses -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="product-image">
                         <img src="./assets/img/Pulses/Toor-Pulses.webp" height="300px" width="100%" alt="Toor Pulses">
@@ -589,154 +327,175 @@
                     </div>
                     <div class="product-info">
                         <h4>Toor Pulses</h4>
-                        <p>Nutritious and high-quality pulses sourced from trusted farmers. Clean, fresh, and rich in
-                            protein.</p>
+                        <p>Essential pulses rich in fiber and protein.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="toor-pulses.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Red Masoor Pulses -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="product-image">
-                        <img src="./assets/img/Pulses/White-Chickpeas.jpg" height="300px" width="100%"
-                            alt="White Chickpeas">
+                        <img src="./assets/img/Pulses/Red-Masoor-Pulses.webp" height="300px" width="100%" alt="Red Masoor Pulses">
                         <span class="product-badge">Fresh</span>
                     </div>
                     <div class="product-info">
-                        <h4>White Chickpeas</h4>
-                        <p>Nutritious and high-quality pulses sourced from trusted farmers. Clean, fresh, and rich in
-                            protein.</p>
+                        <h4>Red Masoor Pulses</h4>
+                        <p>Quick-cooking, nutritious pulses for everyday meals.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="red-masoor-pulses.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Chana Pulses -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="product-image">
-                        <img src="./assets/img/Pulses/Yellow-Moong-Pulses.jpg" height="300px" width="100%"
-                            alt="Yellow Moong Pulses">
+                        <img src="./assets/img/Pulses/Chana-Pulses.webp" height="300px" width="100%" alt="Chana Pulses">
                         <span class="product-badge">Fresh</span>
                     </div>
                     <div class="product-info">
-                        <h4>Yellow Moong Pulses</h4>
-                        <p>Nutritious and high-quality pulses sourced from trusted farmers. Clean, fresh, and rich in
-                            protein.</p>
+                        <h4>Chana Pulses</h4>
+                        <p>Premium pulses ideal for curries and snacks.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
-                                <i class="fas fa-info-circle"></i> Details
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!--  -->
-                <!-- others -->
-                <div class="product-card" data-aos="fade-up" data-aos-delay="600">
-                    <div class="product-image">
-                        <img src="./assets/img/Spices/Black-Pepper.jpg" height="300px" width="100%" alt="">
-                        <span class="product-badge">Fresh</span>
-                    </div>
-                    <div class="product-info">
-                        <h4>Black Pepper</h4>
-                        <p>Premium black pepper with strong aroma and bold flavor. Perfect for enhancing taste in
-                            various dishes.</p>
-                        <div class="product-buttons">
-                            <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
-                                <i class="fas fa-paper-plane"></i> Enquiry
-                            </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="chana-pulses.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Spices Collection -->
+                <!-- Cumin Seeds -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="product-image">
-                        <img src="./assets/img/Spices/Cardamom.jpg" height="300px" width="100%" alt="">
-                        <span class="product-badge">Fresh</span>
-                    </div>
-                    <div class="product-info">
-                        <h4>Green Cardamom</h4>
-                        <p>High-grade cardamom known for its rich fragrance and natural freshness. Widely used in sweets
-                            and beverages.</p>
-                        <div class="product-buttons">
-                            <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
-                                <i class="fas fa-paper-plane"></i> Enquiry
-                            </button>
-                            <a href="#" class="product-btn primary">
-                                <i class="fas fa-info-circle"></i> Details
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-card" data-aos="fade-up" data-aos-delay="600">
-                    <div class="product-image">
-                        <img src="./assets/img/Spices/Cumin.jpg" height="300px" width="100%" alt="">
+                        <img src="./assets/img/Spices/Cumin.jpg" height="300px" width="100%" alt="Cumin Seeds">
                         <span class="product-badge">Fresh</span>
                     </div>
                     <div class="product-info">
                         <h4>Cumin Seeds</h4>
-                        <p>Pure cumin seeds with authentic flavor and aroma. Commonly used in traditional cooking and
-                            digestion.</p>
+                        <p>Premium quality cumin seeds perfect for enhancing flavor in curries and dishes.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="cumin.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Cardamom -->
                 <div class="product-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="product-image">
-                        <img src="./assets/img/coriander-seeds.webp" height="300px" width="100%" alt="">
+                        <img src="./assets/img/Spices/Cardamom.jpg" height="300px" width="100%" alt="Cardamom">
+                        <span class="product-badge">Fresh</span>
+                    </div>
+                    <div class="product-info">
+                        <h4>Green Cardamom</h4>
+                        <p>Premium green cardamom with rich aroma, ideal for desserts and beverages.</p>
+                        <div class="product-buttons">
+                            <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                                <i class="fas fa-paper-plane"></i> Enquiry
+                            </button>
+                            <a href="cardamom.php" class="product-btn primary">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Black Pepper -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="product-image">
+                        <img src="./assets/img/Spices/Black-Pepper.jpg" height="300px" width="100%" alt="Black Pepper">
+                        <span class="product-badge">Fresh</span>
+                    </div>
+                    <div class="product-info">
+                        <h4>Black Pepper</h4>
+                        <p>High-quality black pepper to add spice and flavor to all your dishes.</p>
+                        <div class="product-buttons">
+                            <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                                <i class="fas fa-paper-plane"></i> Enquiry
+                            </button>
+                            <a href="black-pepper.php" class="product-btn primary">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Spices -->
+
+                <!-- Green Peas -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="product-image">
+                        <img src="./assets/img/Spices/Green-Peas.jpg" height="300px" width="100%" alt="Green Peas">
+                        <span class="product-badge">Fresh</span>
+                    </div>
+                    <div class="product-info">
+                        <h4>Green Peas</h4>
+                        <p>Fresh green peas, perfect for soups, salads, and cooking.</p>
+                        <div class="product-buttons">
+                            <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                                <i class="fas fa-paper-plane"></i> Enquiry
+                            </button>
+                            <a href="green-peas.php" class="product-btn primary">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dried Red Chilli -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="product-image">
+                        <img src="./assets/img/Spices/dried-red-chilli.jpg" height="300px" width="100%" alt="Dried Red Chilli">
+                        <span class="product-badge">Fresh</span>
+                    </div>
+                    <div class="product-info">
+                        <h4>Dried Red Chilli</h4>
+                        <p>High-quality dried red chilies to add heat and flavor to any dish.</p>
+                        <div class="product-buttons">
+                            <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                                <i class="fas fa-paper-plane"></i> Enquiry
+                            </button>
+                            <a href="dried-red-chilli.php" class="product-btn primary">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coriander Seeds -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="product-image">
+                        <img src="./assets/img/Spices/coriander-seeds.webp" height="300px" width="100%" alt="Coriander Seeds">
                         <span class="product-badge">Fresh</span>
                     </div>
                     <div class="product-info">
                         <h4>Coriander Seeds</h4>
-                        <p>Pure Coriander seeds with authentic flavor and aroma. Commonly used in traditional cookingand
-                            digestion.</p>
+                        <p>Premium coriander seeds for aromatic flavor in curries and spice blends.</p>
                         <div class="product-buttons">
                             <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                                 <i class="fas fa-paper-plane"></i> Enquiry
                             </button>
-                            <a href="#" class="product-btn primary">
-                                <i class="fas fa-info-circle"></i> Details
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card" data-aos="fade-up" data-aos-delay="600">
-                    <div class="product-image">
-                        <img src="./assets/img/dried-red-chilli.jpg" height="300px" width="100%" alt="">
-                        <span class="product-badge">Fresh</span>
-                    </div>
-                    <div class="product-info">
-                        <h4>Dry Red Chilli (S-334)</h4>
-                        <p>Pure Dry Red Chilli with authentic flavor and aroma. Commonly used in traditional cooking and
-                            digestion.</p>
-                        <div class="product-buttons">
-                            <button class="product-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
-                                <i class="fas fa-paper-plane"></i> Enquiry
-                            </button>
-                            <a href="#" class="product-btn primary">
+                            <a href="coriander-seeds.php" class="product-btn primary">
                                 <i class="fas fa-info-circle"></i> Details
                             </a>
                         </div>
@@ -1046,115 +805,5 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <h3>GUSWISS TRADERS INDIA PRIVATE LIMITED</h3>
-                    <p>Since 2018, we have been committed to delivering premium quality food products including coconut
-                        oil, groundnut oil, spices, and more. With 15 years of industry experience, we ensure the best
-                        prices and exceptional customer service.</p>
-                    <div class="social-links mt-4">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
-                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Products</a></li>
-                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
-                        <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Gallery</a></li>
-                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Our Products</h4>
-                    <ul>
-                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Coconut Oil</a></li>
-                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Groundnut Oil</a></li>
-                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Red Dry Chilli</a></li>
-                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Spices & Cardamom</a></li>
-                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Cow Ghee</a></li>
-                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Rice & Pulses</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> 48, Ponnurangam Road West</a></li>
-                        <li><a href="#"><i class="fas fa-building"></i> R. S. Puram, Coimbatore</a></li>
-                        <li><a href="#"><i class="fas fa-flag"></i> Tamil Nadu - 641002, India</a></li>
-                        <li><a href="tel:9092200699"><i class="fas fa-phone"></i> 9092200699</a></li>
-                        <li><a href="tel:9629979406"><i class="fas fa-mobile-alt"></i> 9629979406</a></li>
-                        <li><a href="mailto:info@guswiss.com"><i class="fas fa-envelope"></i>infogtipl2024@gmail.com</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 GUSWISS TRADERS INDIA PVT LTD. All Rights Reserved. | Designed with <i
-                        class="fas fa-heart" style="color: var(--accent);"></i> <a
-                        href="https://trade4export.com">Trade4Export</a></p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Enquiry Modal -->
-    <div class="modal fade" id="enquiryModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header"
-                    style="background: linear-gradient(135deg, var(--primary), var(--accent)); color: white;">
-                    <h5 class="modal-title"><i class="fas fa-paper-plane"></i> Product Enquiry</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="enquiryForm">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="enquiryName" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="enquiryEmail" placeholder="Your Email"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" class="form-control" id="enquiryPhone" placeholder="Your Phone" required>
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control" id="enquiryProduct" required>
-                                <option value="">Select Product</option>
-                                <option value="Coconut Oil">Coconut Oil</option>
-                                <option value="Groundnut Oil">Groundnut Oil</option>
-                                <option value="Red Dry Chilli">Red Dry Chilli</option>
-                                <option value="Spices">Spices & Cardamom</option>
-                                <option value="Cow Ghee">Cow Ghee</option>
-                                <option value="Rice & Pulses">Rice & Pulses</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="enquiryMessage" rows="4" placeholder="Your Message"
-                                required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">
-                            <i class="fab fa-whatsapp"></i> Send Enquiry via WhatsApp
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="./assets/script.js"></script>
-</body>
-
-</html>
+    <!-- footer -->
+    <?php include('footer.php') ?>
